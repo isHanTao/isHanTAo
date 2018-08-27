@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class StudentController {
     @Autowired
     StudentService  studentService;
-
+    Student student;
 
     @RequestMapping("/list")
     public String getAllStudents(Model model){
